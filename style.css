@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: bisque;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+header {
+  font-size: 4em;
+  text-decoration: underline;
+  margin: 25px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 650px;
+  height: 500px;
+}
+.container .btn {
+  width: 175px;
+  height: 75px;
+  margin: 5px;
+  display: flex;
+  border-radius: 6px;
+  border: rgb(8, 8, 8) 5px dotted;
+  background-color: var(--color);
+  cursor: pointer;
+}
+.btn-1 {
+  --color: rgb(210, 122, 221);
+}
+.btn-2 {
+  --color: yellow;
+}
+.btn-3 {
+  --color: rgb(148, 29, 29);
+}
+.btn-4 {
+  --color: rgba(172, 199, 50, 0.527);
+}
+.btn-5 {
+  --color: orange;
+}
+.btn-6 {
+  --color: rgb(122, 212, 122);
+}
+.btn-7 {
+  --color: rgba(105, 139, 212, 0.993);
+}
