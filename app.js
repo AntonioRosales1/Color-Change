@@ -5,5 +5,6 @@ for (let i = 0; i < btns.length; i++) {
     let buttonStyle = getComputedStyle(this);
     let buttonBigColor = buttonStyle[`backgroundColor`];
     document.body.style.backgroundColor = buttonBigColor;
+    console.log(buttonBigColor);
   });
 }
